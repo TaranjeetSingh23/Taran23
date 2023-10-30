@@ -1,0 +1,80 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Gruppo&display=swap');
+
+
+
+
+
+
+body{
+    background: url(../images/pexels-eberhard-grossgasteiger-10012495\ \(1\).jpg);
+    background-position: top;
+    background-repeat:no-repeat;
+    background-size: cover;
+    
+}
+
+#masthead{
+    
+    font-family: 'Gloock', serif;
+    color: #000;
+
+}
+#masthead h1, p{
+    
+    font-family: 'Gruppo', sans-serif;
+    color: #000000;
+
+}
+/* 
+.item {
+    width: 400px;
+    height: 200px;
+}
+*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: antiquewhite;
+  }
+  
+  ul.topnav li {float: left;}
+  
+  ul.topnav li a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: 'Gloock', serif;
+    }
+
+    nav a:hover{
+        background-color: rgba(230, 213, 213, 0.314)
+      }
+  
+  ul.topnav li a:hover:not(.active) {background-color: #ffffff;}
+  
+  ul.topnav li a.active {background-color: #727574;}
+  
+  ul.topnav li.right {float: right;}
+
+  #portfolio{
+    text-align: center;
+    color: antiquewhite;
+    font-family: 'Gloock', serif;
+
+  }
+#about{
+    
+    text-align: justify;
+    color: rgb(21, 21, 20);
+    background-color:rgb(253, 217, 169);
+    width: 80vw;
+    margin: 1% auto;
+    
+    padding: 10px;
+    opacity: 0.8;
+}
