@@ -1,0 +1,116 @@
+/******************************header**************************/
+
+header{
+    background: linear-gradient(to bottom, rgba(255,255,255,0.15) 0%, rgba(0,0,0,0.15) 100%), radial-gradient(at top center, rgba(255,255,255,0.40) 0%, rgba(0,0,0,0.40) 120%) #6f3333;
+ background-blend-mode: multiply,multiply;
+    text-align: center;
+    padding: 1px;
+}@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+
+body{
+    background-image: linear-gradient(to right, #434343 0%, black 100%);
+ background-blend-mode: multiply,multiply;    color: aliceblue;
+ font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000000;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+  }
+
+
+
+h1{
+    font-family: 'Young Serif', serif;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 183, 0);
+    text-align: center;
+    padding: 2px;
+}
+
+
+section{
+    background-color: #434343;
+    text-align: center;}
+h3{
+    font-family: 'Playfair Display', serif;
+    color: rgb(255, 163, 4);
+    text-align: center;
+    font-size: 30px;
+    
+}
+
+h4{
+    text-align: center;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #818181;
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(255, 163, 4);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+    background-color: #111;
+  }
+
+  footer{
+    text-align: center;
+  }
+  
+  a{
+    color: #ff0000;
+}
+
+a:visited{
+    color: rgb(255, 179, 0);
+}
+
+a:hover{
+    color: rgb(255, 196, 0);
+}
+
+a:active{
+    color: white;
+}
+
+
